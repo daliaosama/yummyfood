@@ -1,4 +1,4 @@
-import './Servicepage.css'
+import './ServicePage.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserTie ,faUtensils, faCartPlus ,faHeadset } from '@fortawesome/free-solid-svg-icons';
 const Servicespage = () => {
