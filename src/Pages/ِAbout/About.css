@@ -1,0 +1,30 @@
+#AboutPage{
+    @apply py-pad flex lg:px-14 box-border gap-8 lg:flex-row 
+    sm:flex-col md:flex-col md:px-4
+}
+.images{
+    @apply lg:w-form flex flex-col gap-4
+}
+#About{
+    @apply flex flex-col border-8 border-red-600
+     bg-white pl-8  font-semibold box-border h-form pt-4 gap-4
+      rounded-lg sm:w-80 md:w-form sm:pl-2
+}
+.lo{
+    @apply w-12
+}
+#experience,#chef{
+    @apply flex border-l-4 border-red-600 h-14 pl-2
+}
+#yummy{
+    @apply flex items-center
+}
+.img{
+    @apply lg:w-80 md:w-form sm:w-96 rounded-lg lg:ml-20 border-8 border-red-600 
+}
+.img1{
+    @apply lg:w-80 md:w-form sm:w-96 lg:ml-64 rounded-lg border-8 border-red-600 
+}
+#aboutus{
+    @apply flex justify-around
+}

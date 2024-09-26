@@ -1,0 +1,81 @@
+header{
+    @apply  w-full h-20 flex gap-2 p-2 box-border flex-col text-red-600 
+}
+nav{
+    @apply  justify-center gap-8  border-2 items-center
+     bg-white h-10 rounded-lg w-nav self-center md:hidden sm:hidden lg:flex
+}
+#top{
+@apply flex w-full items-center justify-center lg:gap-4 text-lg 
+font-bold sm:gap-2 md:gap-6
+}
+.logo{
+    @apply rounded-full lg:h-32 sm:h-24 md:h-32
+} 
+#res{
+@apply rounded-lg h-52 w-3/4 
+}
+#image{
+    @apply w-full  flex justify-center
+}
+#book{
+    @apply rounded-lg bg-red-600 h-12 w-36 text-white hover:bg-red-700
+}
+
+#video{
+    @apply flex justify-center  w-video self-center h-video 
+}
+footer{
+    @apply bg-white  flex   
+    font-bold flex-col lg:h-96 pt-4  px-14 text-red-600 sm:h-navmo
+}
+footer nav{
+    @apply  bg-transparent border-0 
+    w-32 flex-col  gap-2 p-0 
+}
+#bottom{@apply flex  lg:flex-row sm:flex-col
+    lg:gap-20 lg:h-52 sm:h-menumo 
+    sm:gap-14 md:gap-14}
+.logobot{
+    @apply  w-20 h-20 rounded-full
+}
+.logobottom{
+    @apply flex items-center 
+}
+#contactbot{
+    @apply flex flex-col gap-2
+}
+#opening{
+    @apply flex flex-col gap-2
+}
+#bottom form{
+    @apply flex lg:w-formb gap-2 flex-row border-2 h-14 sm:w-72
+     border-red-700 items-center pt-0 pl-0
+}
+#bottom form input[type=email]{
+    @apply h-12 lg:w-96 border-none sm:w-44
+}
+#sign{
+    @apply bg-red-600 text-white
+     hover:bg-red-700 cursor-pointer w-28 h-14 border-none
+}
+footer p{
+    @apply text-center
+}
+#news p{
+    @apply text-start
+}
+#news{
+    @apply flex flex-col gap-4
+}
+.menumo{
+    @apply lg:hidden sm:block md:block cursor-pointer text-red-600
+
+}
+#mobilemenu{
+    @apply sm:flex flex-col z-10 lg:hidden pl-11 pt-8 box-border
+    absolute  h-form w-40 bg-white top-0 left-0 font-bold gap-4
+}
+.close{
+    @apply text-2xl text-red-600 cursor-pointer 
+}

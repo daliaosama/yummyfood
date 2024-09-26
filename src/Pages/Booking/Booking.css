@@ -1,0 +1,26 @@
+#Booking{
+    @apply flex lg:flex-row md:flex-col 
+    sm:flex-col pt-pad pb-20  w-full relative
+     lg:gap-80 box-border lg:pl-40 sm:pl-0 md:gap-4 sm:gap-4 md:pl-10
+}
+#videobooking{
+    @apply w-40
+}
+#booktable{
+    @apply w-40 
+}
+
+#formbooking{
+@apply border-8 border-red-600 h-booking sm:w-formb lg:w-form md:w-form
+}
+#time{
+    @apply flex flex-col
+}
+#book{
+    @apply bg-red-600 hover:bg-red-700 text-white cursor-pointer
+}
+.submitted{
+    @apply bg-red-600  text-white flex flex-col z-10
+     p-4 h-24 w-60 font-bold
+    absolute top-48 lg:left-1/2 sm:left-20
+}
